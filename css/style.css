@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:600&display=swap');
+
+body {
+
+
+	font-family: 'Poppins';
+	color: white;
+	text-align: center;
+	font-size: 10px;
+	text-decoration-color: white;
+}
+
+.pie_chart_content {
+	background-image: url("https://scandiononcology.com/wp-content/uploads/2018/12/iStock-673266772.jpg");
+	height: 2000px;
+}
+
+
+.overlay {
+	background-color: #094162e5;
+	height: 2000px;
+	padding-top: 10px;
+	padding-bottom: 200px;
+}
+
+.pie_chart_content .container {
+
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+
+
+}
+
+.main_box h1 {
+	padding: 10px 5px 10px 5px;
+	font-size: 15px;
+	color: black;
+}
+
+.main_box {
+
+	background-color: white;
+	height: 100%;
+	left: 500px;
+	width:1000px;
+	justify-content: center;
+
+}
+
+.count_box div  {
+	
+	padding: 10px;
+ 	float:left;  
+    height:80px;
+    width:120px;
+   	position: relative;
+   	text-align: center;
+   	display: inline-block;
+   	top: 80px;
+   	left: 55px;
+}
+
+.count_box label  {
+	color: white;
+	padding: 0px;
+	text-align: center;
+
+
+	
+}
+
+.total-input {
+	background-color: #3546b0;
+	border: none;
+	color: white;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+	background-color: #3546b0;
+	opacity: 1;
+}
+
+.form-control:focus {
+	background-color: transparent;
+	border: none;
+	color: white;
+
+}
+
+.input-block {
+
+	font-size: 10px;
+}
+
+.input-block input {
+	border: 0;
+	padding: 10px;
+	font-size: 0.8em;
+	outline: 0;
+	margin-left: 16px;
+}

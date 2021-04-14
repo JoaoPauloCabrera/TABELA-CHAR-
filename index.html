@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>MURDER X STATE</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+
+
+
+	<section class="pie_chart_content">
+
+		<div class="overlay">
+
+			<div class="container">
+				<h1>U.S.A - MURDER 2010</h1><BR>
+				<div class="row">
+					
+
+					<div class="col-md-6">
+
+						<div class="main_box">
+
+							<h1>MURDER BY STATE</h1>
+
+							<canvas id="myChart"></canvas>
+
+						</div>
+					</div>
+
+
+
+						<div class="count_box">
+
+							<div class="form-group">
+								<label for="AL-input">Alabama</label>
+								<input type="number"  value="135"name="AL-input" class="AL-input form-control" />
+							</div>
+
+							<div class="form-group">
+								<label for="AK-input">Alaska</label>
+								<input type="number" value="19" name="AK-input" class="AK-input form-control" />
+							</div>
+
+							<div class="form-group">
+								<label for="AZ-input">Arizona</label>
+								<input type="number" value="232" name="AZ-input" class="AZ-input form-control" />
+							</div> 
+
+							<div class="form-group">
+								<label for="AR-input">Arkansas</label>
+								<input type="number"  value="93"name="AR-input" class="AR-input form-control" />
+							</div>
+
+							<div class="form-group">
+								<label for="CA">California</label>
+								<input type="number" value="1257" name="CA-input" class="CA-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="CO">Colorado</label>
+								<input type="number" value="65" name="CO-input" class="CO-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="CT">Connecticut</label>
+								<input type="number" value="97" name="CT-input" class="CT-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="DE">Delaware</label>
+								<input type="number" value="38" name="DE-input" class="DE-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="DC">D.C </label>
+								<input type="number" value="99" name="DC-input" class="DC-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="FL">Florida</label>
+								<input type="number" value="669" name="FL-input" class="FL-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="GA">Georgia</label>
+								<input type="number" value="376" name="GA-input" class="GA-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="HI">Hawaii</label>
+								<input type="number" value="7" name="HI-input" class="HI-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="ID">Idaho</label>
+								<input type="number" value="12" name="ID-input" class="ID-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="IL">Illinois</label>
+								<input type="number" value="364" name="IL-input" class="IL-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="IN">Indiana</label>
+								<input type="number" value="142" name="IN-input" class="IN-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="IA">Iowa</label>
+								<input type="number" value="21" name="IA-input" class="IA-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="KS">Kansas</label>
+								<input type="number" value="63" name="KS-input" class="KS-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="KY">Kentucky</label>
+								<input type="number" value="116" name="KY-input" class="KY-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="LA">Louisiana</label>
+								<input type="number" value="351" name="LA-input" class="LA-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="ME">Maine</label>
+								<input type="number" value="11" name="ME-input" class="ME-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="MD">Maryland</label>
+								<input type="number" value="293" name="MD-input" class="MD-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="MA">Massachusetts</label>
+								<input type="number" value="118" name="MA-input" class="MA-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="MI">Michigan</label>
+								<input type="number" value="413" name="MI-input" class="MI-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="MN">Minnesota</label>
+								<input type="number" value="53" name="MN-input" class="MN-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="MS">Mississippi</label>
+								<input type="number" value="120" name="MS-input" class="MS-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="MO">Missouri</label>
+								<input type="number"  value="321" name="MO-input" class="MO-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="MT">Montana</label>
+								<input type="number" value="12" name="MT-input" class="MT-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="NE">Nebraska</label>
+								<input type="number" value="32" name="NE-input" class="NE-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="NV">Nevada</label>
+								<input type="number" value="84" name="NV-input" class="NV-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="NH">N.Hampshire</label>
+								<input type="number" value="5" name="NH-input" class="NH-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="NJ">N.Jersey</label>
+								<input type="number" value="246" name="NJ-input" class="NJ-input form-control" />
+							</div>
+
+							<div class="form-group">
+								<label for="NM">N.Mexico</label>
+								<input type="number" value="67" name="NM-input" class="NM-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="NY">N.York</label>
+								<input type="number" value="517" name="NY-input" class="NY-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="NC">N.Carolina</label>
+								<input type="number" value="286" name="NC-input" class="NC-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="ND">N.Dakota</label>
+								<input type="number" value="4" name="ND-input" class="ND-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="OH">Ohio</label>
+								<input type="number" value="4" name="OH-input" class="OH-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="OK">Oklahoma</label>
+								<input type="number" value="310" name="OK-input" class="OK-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="NJ">N.Jersey</label>
+								<input type="number" value="111" name="NJ-input" class="NJ-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="OR">Oregon</label>
+								<input type="number" value="36" name="OR-input" class="OR-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="PA">Pennsylvania</label>
+								<input type="number" value="457" name="PA-input" class="PA-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="RI">Rhode Island</label>
+								<input type="number" value="16" name="RI-input" class="RI-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="SC">S.Carolina</label>
+								<input type="number" value="207" name="SC-input" class="SC-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="SD">S.Dakota</label>
+								<input type="number"  value="8" name="SD-input" class="SD-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="TN">Tennessee</label>
+								<input type="number" value="219" name="TN-input" class="TN-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="TX">Texas</label>
+								<input type="number" value="805"name="TX-input" class="TX-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="UT">Utah</label>
+								<input type="number" value="22" name="UT-input" class="UT-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="VT">Vermont</label>
+								<input type="number" value="2" name="VT-input" class="VT-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="VA">Virginia</label>
+								<input type="number" value="250" name="VA-input" class="VA-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="WA">Washington</label>
+								<input type="number" value="93" name="WA-input" class="WA-input form-control" />
+							</div>
+							
+							<div class="form-group">
+								<label for="WV">W.Virginia</label>
+								<input type="number" value="27"name="WV-input" class="WV-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="WI">Wisconsin</label>
+								<input type="number"  value="97" name="WI-input" class="WI-input form-control" />
+							</div>
+							<div class="form-group">
+								<label for="WY">Wyoming</label>
+								<input type="number" value="5" name="WY-input" class="WY-input form-control" />
+							</div>
+
+
+
+
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+
+
+	</section>
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+		 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+</scrip>
+</body>t>
+
+
+</html>
